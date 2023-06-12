@@ -177,7 +177,7 @@ if(!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !==true){
           </select>
 
           <a class="nav-link" href="logout.php" ><button type="button" class="btn btn-primary" >Logout</button></a>
-
+ 
         </div>
 
       </div>
@@ -189,7 +189,7 @@ if(!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !==true){
       <div class="container">
 
         <a href="#" class="header-logo">
-          <img src="HnH_logo1.png" alt="Him's and Her's logo" width="130" height="120">
+          <img src="HnH_logo1.png" alt="Him's and Her's logo" widt h="130" height="120">
         </a>
 
         <div class="header-search-container">
@@ -216,7 +216,7 @@ if(!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !==true){
             <ion-icon name="heart-outline"></ion-icon>
             <span class="count">0</span>
           </button>
-
+ 
           <button class="action-btn">
             <ion-icon name="bag-handle-outline"></ion-icon>
             <span class="count">0</span>
