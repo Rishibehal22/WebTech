@@ -171,18 +171,12 @@ if(!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !==true){
 
           <select name="currency" id="transactioncurrency">
 
-            <option value="http://127.0.0.1:5500/index.html">INR &#x20b9;</option>
-            <option value="http://127.0.0.1:5500/index_usd.html">USD &dollar;</option>
+            <option value="index.php">INR &#x20b9;</option>
+            <option value="index_usd.html">USD &dollar;</option>
 
           </select>
 
-          <select name="language">
-
-            <option value="en-US">English</option>
-            <option value="es-ES">Espa&ntilde;ol</option>
-            <option value="fr">Fran&ccedil;ais</option>
-
-          </select>
+          <a class="nav-link" href="logout.php" ><button type="button" class="btn btn-primary" >Logout</button></a>
 
         </div>
 
@@ -212,10 +206,11 @@ if(!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !==true){
 
          <button class ="action-btn">
           <a href="#" style="font-size: 60%; color: black; font-family:'Gill Sans'"> <i><?php echo "Welcome"?> </i><br> <?php echo $_SESSION['username'] ?> </a>
-
-          <button class="action-btn">
+         </button>
+          
+         <button class="action-btn">
             <a href="#" style="color: black;"> <ion-icon name="person-outline"></ion-icon> </a>
-          </button>
+         </button>
 
           <button class="action-btn">
             <ion-icon name="heart-outline"></ion-icon>
