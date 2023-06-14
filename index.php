@@ -189,7 +189,7 @@ if(!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !==true){
       <div class="container">
 
         <a href="#" class="header-logo">
-          <img src="HnH_logo1.png" alt="Him's and Her's logo" widt h="130" height="120">
+          <img src="https://github.com/Rishibehal22/Him-s-Her-s-ecomm-website/blob/main/WebTech/websitelogo.png?raw=true" alt="Him's and Her's logo" widt h="130" height="120">
         </a>
 
         <div class="header-search-container">
@@ -2982,7 +2982,7 @@ if(!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !==true){
 
               <img src="./assets/images/testimonial-1.jpg" alt="Gargi Trivedi" class="testimonial-banner" width="80" height="80">
 
-              <p class="testimonial-name">Gargi Trivedi</p>
+              <p class="testimonial-name">Emily Clarke</p>
 
               <p class="testimonial-title">CEO & Founder H&H</p>
 
